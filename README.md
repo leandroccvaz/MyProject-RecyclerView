@@ -41,7 +41,7 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo.git
+git clone 
 Open the project in Android Studio
 Sync Gradle
 Run the app on an emulator or physical device
