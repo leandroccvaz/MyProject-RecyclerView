@@ -9,11 +9,11 @@ This project is a simple Android application that demonstrates how to display a 
 Display a list of items using RecyclerView<br>
 Custom item layout with title and description<br>
 Click listener for each item<br>
-Toast message on item click<br>
-🛠️ Tech Stack<br>
+Toast message on item click<br><br>
+*Commomn Tech Stack:<br>
 Kotlin<br>
 Android SDK<br>
-RecyclerView<br>
+RecyclerView(Compose)<br>
 
 <br>    
 *How It Works*<br>
