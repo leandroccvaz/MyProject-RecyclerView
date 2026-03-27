@@ -44,13 +44,14 @@ Clone the repository: https://github.com/leandroccvaz/MyProject-RecyclerView.git
 git clone 
 Open the project in Android Studio
 Sync Gradle
-Run the app on an emulator or physical device
+Run the app on an emulator or physical device<br>
 
 
 *Possible Improvements*:
 
-Use ListAdapter with DiffUtil for better performance
-Implement MVVM/MVI architecture
-Add unit tests
-Replace Toast with Snackbar
-Migrate UI to Jetpack Compose
+Use ListAdapter with DiffUtil for better performance,<br>
+Implement MVVM/MVI architecture,<br>
+Add unit tests,<br>
+Replace Toast with Snackbar,<br>
+Migrate UI to Jetpack Compose,<br>
+...<br>
