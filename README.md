@@ -39,7 +39,7 @@ Each item handles click events and displays a Toast with the item's title
 
 How to Run
 
-Clone the repository:
+Clone the repository: https://github.com/leandroccvaz/MyProject-RecyclerView.git
 
 git clone 
 Open the project in Android Studio
