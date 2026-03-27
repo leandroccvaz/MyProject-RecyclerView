@@ -1,21 +1,21 @@
 # MyProject-RecyclerView
 
-Android RecyclerView Sample
- Overview
+# Android RecyclerView Sample<br>
+*Overview*
 
 This project is a simple Android application that demonstrates how to display a list of items using RecyclerView. Each item contains a title and a description. When a user taps on an item, a Toast message is displayed with the selected item's title.
 
-Features
-Display a list of items using RecyclerView
-Custom item layout with title and description
-Click listener for each item
-Toast message on item click
-🛠️ Tech Stack
-Kotlin
-Android SDK
-RecyclerView
-📂 Project Structure
+*Features:*
+Display a list of items using RecyclerView<br>
+Custom item layout with title and description<br>
+Click listener for each item<br>
+Toast message on item click<br>
+🛠️ Tech Stack<br>
+Kotlin<br>
+Android SDK<br>
+RecyclerView<br>
 
+*Project Structure:*
 com.example.app
 │
 ├── model
@@ -30,25 +30,23 @@ com.example.app
     │   ├── activity_main.xml
     │   └── item_list.xml
 
+
     
-📄 How It Works
-A list of sample data is created using a data class (Item)
-The RecyclerView is initialized in MainActivity
-A custom ItemAdapter binds the data to the UI
-Each item handles click events and displays a Toast with the item's title
+*How It Works:*<br>
+A list of sample data is created using a data class (Item)<br>
+The RecyclerView is initialized in MainActivity<br>
+A custom ItemAdapter binds the data to the UI<br>
+Each item handles click events and displays a Toast with the item's title<br>
 
-How to Run
-
-Clone the repository: https://github.com/leandroccvaz/MyProject-RecyclerView.git
-
-git clone 
-Open the project in Android Studio
-Sync Gradle
-Run the app on an emulator or physical device<br>
+*How to Run:*<br>
+*Clone the repository:* https://github.com/leandroccvaz/MyProject-RecyclerView.git<br>
+git clone <br>
+Open the project in Android Studio<br>
+Sync Gradle<br>
+Run the app on an emulator or physical device<br><br>
 
 
-*Possible Improvements*:
-
+*Possible Improvements:*
 Use ListAdapter with DiffUtil for better performance,<br>
 Implement MVVM/MVI architecture,<br>
 Add unit tests,<br>
