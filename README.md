@@ -46,7 +46,7 @@ Sync Gradle<br>
 Run the app on an emulator or physical device<br><br>
 
 <br>
-*Possible Improvements:*
+*Possible Improvements:*<br> 
 Use ListAdapter with DiffUtil for better performance,<br>
 Implement MVVM/MVI architecture,<br>
 Add unit tests,<br>
