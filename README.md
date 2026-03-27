@@ -1,6 +1,6 @@
 # MyProject-RecyclerView
 
-# Android RecyclerView Sample<br>
+*Android RecyclerView Sample*<br>
 *Overview*
 
 This project is a simple Android application that demonstrates how to display a list of items using RecyclerView. Each item contains a title and a description. When a user taps on an item, a Toast message is displayed with the selected item's title.
