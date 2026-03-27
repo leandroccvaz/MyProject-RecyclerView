@@ -4,21 +4,18 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.myapplication_test.data.Item
-import com.example.myapplication_test.ui.compose.ItemList
+import androidx.compose.material3.MaterialTheme
+import com.example.myapplication_test.presentation.composable.ItemListScreen
 
+// Just launches the screen — all the real logic lives in the ViewModel
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            val list = listOf (
-                Item("Title 1", description = "Description 1"),
-                Item("Title 2", description = "Description 2"),
-                Item("Title 3", description = "Description 3")
-            )
-
-            ItemList(list)
+            MaterialTheme {
+                ItemListScreen()
+            }
         }
     }
 }
