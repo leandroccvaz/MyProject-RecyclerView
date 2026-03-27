@@ -15,22 +15,6 @@ Kotlin<br>
 Android SDK<br>
 RecyclerView<br>
 
-*Project Structure:*<br>
-com.example.app
-│
-├── model
-│   └── Item.kt
-│
-├── ui
-│   ├── MainActivity.kt
-│   └── ItemAdapter.kt
-│
-└── res
-    ├── layout
-    │   ├── activity_main.xml
-    │   └── item_list.xml
-
-
 <br>    
 *How It Works:*<br>
 A list of sample data is created using a data class (Item)<br>
