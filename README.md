@@ -47,9 +47,8 @@ Run the app on an emulator or physical device<br><br>
 
 <br>
 *Possible Improvements:*<br> 
-Use ListAdapter with DiffUtil for better performance,<br>
-Implement MVVM/MVI architecture,<br>
-Add unit tests,<br>
+DI
+Implement MVVM/MVI architecture + Clean Arch,<br>
+Add Unit/Instrumented tests,<br>
 Replace Toast with Snackbar,<br>
-Migrate UI to Jetpack Compose,<br>
-...<br>
+etc ...<br>
