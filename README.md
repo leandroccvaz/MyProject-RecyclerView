@@ -46,9 +46,10 @@ Open the project in Android Studio
 Sync Gradle
 Run the app on an emulator or physical device
 
-🧪Possible Improvements
+*Possible Improvements*
+
 Use ListAdapter with DiffUtil for better performance
-Implement MVVM architecture
+Implement MVVM/MVI architecture
 Add unit tests
 Replace Toast with Snackbar
 Migrate UI to Jetpack Compose
